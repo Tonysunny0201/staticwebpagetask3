@@ -1,0 +1,178 @@
+
+
+/* <!-- PROFESSIONAL HOME INTERIOR DESIGN COMPANY --> */
+#phidc{
+    padding: 40px;
+}
+.phidc-head{
+    text-align: center;
+}
+.phidc-icon{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.phidc2{
+    padding-top: 45px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+/* .phidc2 h5{
+    color: #732d91;
+} */
+.phidc2:hover{
+    background-color: #732d91;
+    color: white;   
+}
+
+/*  <!-- PACKAGE OFFERS -->  */
+#packageoff{
+    padding: 20px;
+}
+.po-head{
+    text-align: center;
+}
+
+.po-card{
+    padding: 40px;
+    gap: 20px;
+}
+.po-card2{
+    text-align: center;
+    box-shadow: 5px 5px 5px  lightblue;
+}
+
+/*    <!-- WHAT WE DO -->  */
+
+#whatwedo{
+    padding: 20px;
+}
+.wwd-head{
+    text-align: center;
+}
+.wwd-grid{
+    padding: 40px;
+}
+.wwd-button{
+    text-align: center;
+}
+.wwdbtn{
+    border: solid 1px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #732d91;
+}
+
+
+/*     <!-- PROJECT COMPLETION IN 40 WORKING DAYS* --> */
+#pci4wd{
+    padding: 40px;
+}
+.pci4wd-head{
+    text-align: center;
+}
+.pci4wd-head span{
+    color: #732d91;
+}
+
+.pci4wd-icon{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pci4wd2{
+    padding-top: 45px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.pci4wd2:hover{
+    background-color: #732d91;
+    color: white;   
+}
+
+.pci4wd2 i{
+    font-size: 70px;
+    /* text-align: center; */
+}
+.pci4wd2 h5{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    font-weight: 200;
+}
+
+.pci4wd-contents{
+    margin-top:150px;
+    /* padding: 40px; */
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 550px 550px;
+    gap: 20px;
+    justify-content: center;
+}
+.img-e{
+    width: 100%;
+}
+.img-w{
+    width: 100%;
+    height: 350px;
+}
+.pci4wd-contents p{
+    text-align: justify;
+}
+
+/*    <---- footer ---->    */
+footer{
+    background-color: rgb(184, 185, 190);
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+    height: fit-content;
+
+}
+.parent{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    border-top: solid 1px rgb(231, 11, 11);
+    padding-top: 20px;
+    /* background-color: rgb(38, 40, 47); */
+}
+
+.upperpart{
+    width: 100%;
+    height: 50px;
+}
+.upperpart td{
+    color: black;
+    padding: 10px 40px;
+}
+
+
+.child{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(4, 4, 4);
+
+}
+.ftr{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    line-height: 25px;
+}
+.brands{
+color: white;
+padding: 5px;
+}

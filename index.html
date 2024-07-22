@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static wepage teask-3</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos cdn link -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+</head>
+<body>
+    <!-- header / navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">INTERIOR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Company</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#whatwedo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  What to do
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#whatwedo">Customzed Interiors</a></li>
+                  <li><a class="dropdown-item" href="#whatwedo">Design and Build</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                  <li><a class="dropdown-item" href="#">Bedroom</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#">Dining room</a></li>
+                  <li><a class="dropdown-item" href="#">Living room</a></li>
+                  <li><a class="dropdown-item" href="#">Decorative room</a></li>
+                  <li><a class="dropdown-item" href="#">Kids room</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#packageoff">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Locations
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Karnataka</a></li>
+                  <li><a class="dropdown-item" href="#">Kerala</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#">Tamil Nadu</a></li>
+                  <li><a class="dropdown-item" href="#">Telangana</a></li>
+                  <li><a class="dropdown-item" href="#">Maharashtra</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#pci4wd">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contacts">Contact</a>
+              </li>
+
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Link</a>
+              </li> -->
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    <!-- home / carousel slide effect -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="https://cdn-dliin.nitrocdn.com/iFaxlHcVqyWZWghwsjNiQOatlfNsVALG/assets/images/source/rev-fdbed01/dlifeinteriors.com/wp-content/uploads/2023/04/modular-kitchen-design.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="https://cdn-dliin.nitrocdn.com/iFaxlHcVqyWZWghwsjNiQOatlfNsVALG/assets/images/source/rev-fdbed01/dlifeinteriors.com/wp-content/uploads/2023/04/bedroom-design-idea.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="https://cdn-dliin.nitrocdn.com/iFaxlHcVqyWZWghwsjNiQOatlfNsVALG/assets/images/source/rev-fdbed01/dlifeinteriors.com/wp-content/uploads/2023/04/furnishing-company.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- PROFESSIONAL HOME INTERIOR DESIGN COMPANY -->
+     <section id="phidc">
+        <div class="phidc-head">
+            <hr><h1>PROFESSIONAL HOME INTERIOR DESIGN COMPANY</h1><hr>
+        </div>
+        <div class="phidc-icon">
+            <div class="phidc2">
+                <h5 class="phidch5">SINCE</h5>
+                <p>2004</p>
+            </div>
+            <div class="phidc2">
+                <h5>PREMIUM</h5>
+                <p>Materials</p>
+            </div>
+            <div class="phidc2">
+                <h5>10 YEARS</h5>
+                <p>Warranty</p>
+            </div>
+            <div class="phidc2">
+                <h5>COMPLETION</h5>
+                <p>40 Working Days</p>
+            </div>
+            <div class="phidc2">
+                <h5>PROJECTS</h5>
+                <p>300 Per Month</p>
+            </div>
+            <div class="phidc2">
+                <h5>LIFELONG</h5>
+                <p>Service Support</p>
+            </div>
+        </div>
+     </section>
+    <!-- PACKAGE OFFERS -->
+    <section id="packageoff">
+        <!-- package offers heading -->
+        <div class="po-head">
+            <hr><h1>PACKAGE OFFERS</h1><hr>
+        </div>
+        <!-- package offers cards -->
+        <div class="card-group po-card">
+            <div class="card po-card2">
+              <img src="https://dlifeinteriors.com/wp-content/uploads/2023/06/PackageOff1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">EVERYTHING</h5>
+                <p class="card-text">OFFER <strike>Rs10.12 lac</strike> Rs6.8 lac*</p>
+                <p class="card-text"><small class="text-body-secondary">ESSENTIAL WOODWORK FOR A 3BHK</small></p>
+              </div>
+            </div>
+            <div class="card po-card2">
+              <img src="https://dlifeinteriors.com/wp-content/uploads/2023/06/PackageOff2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ELEGANZA</h5>
+                <p class="card-text">OFFER <strike>Rs13.95 lac</strike> Rs9.77 lac*</p>
+                <p class="card-text"><small class="text-body-secondary">DETAILED WOODWORK FOR A 3BHK</small></p>
+              </div>
+            </div>
+            <div class="card po-card2">
+              <img src="https://dlifeinteriors.com/wp-content/uploads/2023/06/PackageOff3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ELEGANZA PLUS</h5>
+                <p class="card-text">OFFER <strike>Rs24.12 lac</strike> Rs16.88 lac*</p>
+                <p class="card-text"><small class="text-body-secondary">WOODWORK & BEAUTIFICATIONS FOR A 3BHK</small></p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- WHAT WE DO -->
+    <section id="whatwedo">
+        <!-- what we do / heading -->
+         <div class="wwd-head">
+            <hr><h1>WHAT WE DO</h1><hr>
+         </div>
+         <!-- grid -->
+         <div class="container-fluid wwd-grid">
+            <div class="row">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <img width="100%" height="95%" src="https://cdn-dliin.nitrocdn.com/iFaxlHcVqyWZWghwsjNiQOatlfNsVALG/assets/images/source/rev-fdbed01/dlifeinteriors.com/wp-content/uploads/2023/06/Kitchen2x.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img width="100%" height="98%" src="https://cdn-dliin.nitrocdn.com/iFaxlHcVqyWZWghwsjNiQOatlfNsVALG/assets/images/source/rev-fdbed01/dlifeinteriors.com/wp-content/uploads/2023/06/bedroom2x.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img width="100%" height="98%" src="https://cdn-dliin.nitrocdn.com/iFaxlHcVqyWZWghwsjNiQOatlfNsVALG/assets/images/source/rev-fdbed01/dlifeinteriors.com/wp-content/uploads/2023/06/living2x.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img width="100%" height="99%" src="https://cdn-dliin.nitrocdn.com/iFaxlHcVqyWZWghwsjNiQOatlfNsVALG/assets/images/source/rev-fdbed01/dlifeinteriors.com/wp-content/uploads/2023/06/dining2x.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- button -->
+        <div class="wwd-button"> 
+            <a class="wwdbtn" href="#">Talk to Our Desgin Consultant</a>
+        </div>
+    </section>
+    <!-- PROJECT COMPLETION IN 40 WORKING DAYS* -->
+    <section id="pci4wd">
+        <!-- heaing -->
+        <div class="pci4wd-head">
+            <hr><h1>PROJECT COMPLETION IN <span>40 WORKING DAYS*</span></h1><hr>
+        </div>
+        <!-- icon of PROJECT COMPLETION IN 40 WORKING DAYS* -->
+        <div class="pci4wd-icon">
+            <div class="pci4wd2">
+                <i class="fa-solid fa-people-group"></i>
+                <h5>Talk to our Interior Designer<br>& Get an Estimate</h5>
+            </div>
+            <div class="pci4wd2">
+                <i class="fa-solid fa-stamp"></i>
+                <h5>Detailed Drawing <br>and Approval</h5>
+            </div>
+            <div class="pci4wd2">
+                <i class="fa-solid fa-cash-register"></i>
+                <h5>Production at Own <br> Factories</h5>
+            </div>
+            <div class="pci4wd2">
+                <i class="fa-solid fa-truck"></i>   
+                <h5>Material Delivery <br>& Execution</h5>
+            </div>
+            <div class="pci4wd2">
+                <i class="fa-solid fa-handshake-simple"></i>
+                <h5>On Time Project <br>Hand Over</h5>
+            </div>
+        </div>
+        <!-- div/cards -->
+        <div class="pci4wd-contents"> 
+           <div>
+                <h1>CONTEMPORARY HOME INTERIOR DESIGNERS AND CONTRACTORS IN INDIA</h1>
+                <p>D’LIFE is the largest home interior designers in India with experience centres in Navi Mumbai, Hyderabad, Bangalore, Mysore, Kerala, Pune, Chennai, Nagercoil, Madurai, Coimbatore & Mangalore with more than 20 years of experience, 25 showrooms, modern factories, and a team of 1300 employees. We are professional, contemporary interior designers and contractors with capacity to hand over 200 projects every month. We ensure client satisfaction through quality products and systematic working. As the most renowned contemporary interior designers, we design and build beautiful living space within an apartment, group villa or independent villa, using our vast experience and creativity that will delight you, your family and visitors. Customize modular kitchen, bedroom, living and dining room furniture as per requirement and measurement of exact space with the help of the best interior design company.</p>
+           </div>
+           <div>
+                <img class="img-e" src="https://dlifeinteriors.com/wp-content/uploads/2023/06/FlxSection1.jpg" alt="">
+           </div>
+           <div>
+                <img class="img-w" src="https://dlifeinteriors.com/wp-content/uploads/2024/04/Web-Banner-2-1.jpg" alt="">
+           </div>
+           <div>
+                <h1>CUSTOM-MADE HOME INTERIORS</h1>
+                <p>Since 2004, we have been transforming the essence of home interiors across Navi Mumbai, Hyderabad, Bangalore, Mysore, Kerala, Pune, Chennai, Nagercoil, Coimbatore, Madurai and Mangalore. Our expertise goes beyond aesthetics to include thoughtful designs that reflect style and functionality. Our dedicated team of interior designers understands the need for space and functionality, and offers customers exactly what they need. We provide complete furnishing for beautiful home interiors including modular kitchen furnishing, living and dining, and bedroom interiors to help bring your dream to life. If you would like to find out more about the interior solutions we offer then just contact us, and our designers will be in touch.</p><a class="wwdbtn" href="#">Book a Free Consultation</a>
+           </div>
+        </div>
+     </section>
+    <!-- footer -->
+
+ <footer id="contacts">
+    <div class="upperpart">
+      <table>
+        <tr>
+          <td>CONTACT US </td>
+          <td>SEARCH</td>
+          <td>ANNOUNCEMENT</td>
+          <td>LEGAL NOTICE</td>
+          <td>HELP</td>
+          <td>MAP</td>     
+          <td>EVM</td>
+        </tr>
+      </table>
+    </div>
+  
+      <div class="parent container-fluid">
+          <div class="child">LOCATIONS<br><br>
+              <a class="ftr" href="">PRICE LIST</a>
+              <a class="ftr" href="">Karnataka</a>
+              <a class="ftr" href="">Kerala</a>
+              <a class="ftr" href="">Pune</a>
+              <a class="ftr" href="">Tamil Nadu</a>
+              <a class="ftr" href="">Telangana</a>
+          </div>
+          <div class="child"> QUICK LINKS<br><br>
+              <a class="ftr" href="">ABOUT US</a>
+              <a class="ftr" href="">INSTAGRAM</a>
+              <a class="ftr" href="">FACEBOOK</a>
+              <a class="ftr" href="">TWITTER</a>
+              <a class="ftr" href="">YOUTUBE</a>
+          </div>
+          <div class="child tyotaaccordian"> Follow Interior <br><br>
+          <!-- <p>
+              <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+              <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter brands"></i></a>
+          </p> -->
+          <div class="accordion" id="accordionExample ">
+            <div class="accordion-item ">
+              <h2 class="accordion-header">
+                <button class="accordion-button bg-light h-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <a href=""><i class="fa-brands fa-instagram brands bg-dark"></i></a>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>@interior.ig</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <a href=""><i class="fa-brands fa-whatsapp brands bg-dark"></i></a>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>@interior</strong> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <a href=""><i class="fa-brands fa-twitter brands bg-dark"></i></a>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>@interior.ig</strong> 
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="child">
+            <h2>INTERIOR</h2>
+            <br>
+            <p>© 2004-2024 Interior Design, Maharashtra. <br> All Rights Reserved.
+            </p>            
+        </div>
+      </div>
+  <!-- <section id="contact">
+             
+              <div class="icons">
+                   <div class="instagram icon">
+                      <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+      
+                   </div> 
+                   <div class="whatsapp icon">
+                      <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+      
+                   </div>
+                   <div class="twitter icon">
+                      <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+      
+                   </div>
+                   <div class="xtwitter icon">
+                      <a href=""><i class="fa-brands fa-x-twitter brands"></i></a>
+      
+                   </div>
+                  
+                  
+  
+              
+              </div>
+          </section> -->
+      
+  </footer>
+  
+  
+ 
+  
+  
+
+</body>
+<!-- bootstrap cdn script  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- aos cdn script -->
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+</html>
